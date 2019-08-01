@@ -19,10 +19,13 @@ end
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0 
-  cheese_types.map {|cheese| cheese}
-  if ingredients.include?(cheese)
-    return cheese 
-  else
+  while i < ingredients.length do 
+    ingredients.include?(cheese_types)
+    if true 
+      return cheese_types
+    else 
+      i += 1 
+    end
     return nil 
   end
 end
