@@ -3,12 +3,12 @@ def roll_call_dwarves(dwarves)
   dwarves
 end
 
-def summon_captain_planet(calling)
-  calling.map {|call| "#{call.capitalize}!"}
+def summon_captain_planet(planateer_calls)
+  planateer_calls.map {|call| "#{call.capitalize}!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  calls.
 end
 
 def find_the_cheese# code an argument here
