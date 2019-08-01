@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  dwarves = array.new
+  dwarves = array.new!
   dwarves.each_with_index {|dwarf, index|
   dwarves[dwarf] = index}
   i = 0 
