@@ -8,8 +8,8 @@ def summon_captain_planet(planateer_calls)
 end
 
 def long_planeteer_calls(calls)
-  call_length = calls.map {|call| call.length}
-    if call_length.all?(<=4)
+  call_length = calls.map {|call| call.length <= 4}
+    if call_length.all?
       return false
     else
       return true 
