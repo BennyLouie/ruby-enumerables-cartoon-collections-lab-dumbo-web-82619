@@ -3,8 +3,8 @@ def roll_call_dwarves(array)
   dwarves.each_with_index {|dwarf, index|
   dwarves[dwarf] = index}
   i = 0 
-  while i < array.length do 
-    puts array[i]
+  while i < dwarves.length do 
+    puts dwarves[i]
     i += 1 
   end 
 end
