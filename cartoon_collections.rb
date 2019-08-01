@@ -8,10 +8,11 @@ def summon_captain_planet(planateer_calls)
 end
 
 def long_planeteer_calls(calls)
-  if calls.map {|call| call.length <= 4}
-    return false
-  elsif 
-  end
+  call_length = calls.map {|call| call.length}
+    if call_length.all?(<=4)
+      return false
+    else
+      return true
 end
 
 def find_the_cheese# code an argument here
