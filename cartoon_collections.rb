@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  
+  dwarves = 
   i = 0 
   while i < array.length do 
     puts array[i]
