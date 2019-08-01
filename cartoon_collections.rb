@@ -21,7 +21,7 @@ def find_the_cheese(ingredients)
   i = 0 
   while i < ingredients.length do 
     ingredients.include?(cheese_types)
-    if true 
+    if 
       return cheese_types
     else 
       i += 1 
